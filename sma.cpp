@@ -3,10 +3,8 @@
 
 int main() {
 
-
     // Your numbers
     int numbers[] = { 35, 28, 48, 65, 36, 65, 66, 8, 35, 65, 14 };
-
 
     // Size of your array
     int size = *( &numbers + 1 ) - numbers;
